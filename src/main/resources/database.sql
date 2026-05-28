@@ -1,0 +1,26 @@
+INSERT IGNORE INTO products (
+    code,
+    name,
+    sku,
+    detail,
+    stock_quantity,
+    sale_price,
+    deleted,
+    created_at,
+    updated_at
+) VALUES
+('P001', 'Laptop Dell Inspiron 15', 'SKU-LAP-DELL-001', 'Laptop Dell Inspiron 15 inch, Intel Core i5, 16GB RAM, 512GB SSD', 25, 18500000.00, false, NOW(), NOW()),
+('P002', 'Laptop HP Pavilion 14', 'SKU-LAP-HP-002', 'Laptop HP Pavilion 14 inch, Intel Core i5, 8GB RAM, 512GB SSD', 18, 16200000.00, false, NOW(), NOW()),
+('P003', 'MacBook Air M2', 'SKU-LAP-APPLE-003', 'MacBook Air M2 13 inch, 8GB RAM, 256GB SSD', 12, 24900000.00, false, NOW(), NOW()),
+('P004', 'iPhone 15', 'SKU-PHO-APPLE-004', 'iPhone 15, 128GB, unlocked', 30, 19900000.00, false, NOW(), NOW()),
+('P005', 'Samsung Galaxy S24', 'SKU-PHO-SS-005', 'Samsung Galaxy S24, 256GB, AMOLED display', 22, 18900000.00, false, NOW(), NOW()),
+('P006', 'Xiaomi Redmi Note 13', 'SKU-PHO-XIAOMI-006', 'Xiaomi Redmi Note 13, 8GB RAM, 256GB storage', 45, 5290000.00, false, NOW(), NOW()),
+('P007', 'Logitech MX Master 3S', 'SKU-MOU-LOGI-007', 'Wireless ergonomic mouse for office and design work', 60, 2190000.00, false, NOW(), NOW()),
+('P008', 'Keychron K2 Keyboard', 'SKU-KEY-KEYCHRON-008', 'Wireless mechanical keyboard with brown switches', 35, 2490000.00, false, NOW(), NOW()),
+('P009', 'Samsung 27 Inch Monitor', 'SKU-MON-SS-009', 'Samsung 27 inch Full HD monitor, 75Hz refresh rate', 20, 3890000.00, false, NOW(), NOW()),
+('P010', 'LG UltraGear Monitor', 'SKU-MON-LG-010', 'LG UltraGear 24 inch gaming monitor, 144Hz refresh rate', 16, 4290000.00, false, NOW(), NOW()),
+('P011', 'Sony WH-1000XM5', 'SKU-HP-SONY-011', 'Sony wireless noise cancelling headphones', 14, 7990000.00, false, NOW(), NOW()),
+('P012', 'AirPods Pro 2', 'SKU-HP-APPLE-012', 'Apple AirPods Pro 2 with active noise cancellation', 28, 5790000.00, false, NOW(), NOW()),
+('P013', 'Anker Power Bank 20000mAh', 'SKU-PB-ANKER-013', 'Anker portable charger, 20000mAh capacity, fast charging', 50, 1290000.00, false, NOW(), NOW()),
+('P014', 'Seagate 1TB External HDD', 'SKU-HDD-SEAGATE-014', 'Seagate 1TB external hard drive, USB 3.0', 40, 1490000.00, false, NOW(), NOW()),
+('P015', 'Kingston 512GB SSD', 'SKU-SSD-KINGSTON-015', 'Kingston 512GB SATA SSD for laptop and desktop', 32, 990000.00, false, NOW(), NOW());
